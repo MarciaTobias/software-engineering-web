@@ -1,13 +1,83 @@
 
+/* Include an image centered in the screen */
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url("../images/GettyImages-485691273.jpg");
+    /*background-image: url("../images/GettyImages-485691273.jpg"); !* insert image in the background *!*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.masthead h1, h2 {
+/*!* Add a blur effect in the image *!*/
+/*.masthead img {*/
+/*    -webkit-filter: blur(1px); !* Safari 6.0 - 9.0 *!*/
+/*    filter: blur(1px);*/
+/*}*/
+
+/* Style the text in the center of the image */
+.masthead h1 {
+    font-family: Roboto Condensed;
+    font-size: 3em;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
     color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-img-top {
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+    -o-animation: fadein 2.5s; /* Opera */
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+footer {
+    font-family: Roboto Condensed;
+
+ }
+
+.text-center {
+    padding-top: 5em;
 }

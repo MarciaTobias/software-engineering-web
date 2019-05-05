@@ -1,19 +1,13 @@
-<?php # Script 3.4 - index.php
-$page_title = 'Welcome to this Site!';
-include ('../heade2.php');
-?>
-<h1>Big Header</h1>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<h2>Subheader</h2>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
-<p>This is where you'll put the main page content. This content will differ for each page.</p>
 <?php
-include ('includes/footer.html');
-define ('_IMAGES_', realpath(dirname(/Applications/MAMP/htdocs/FinalProject) . '/image'));
-?>
+
+// Set the name of the page
+$page_title = 'LanguagFluent';
+
+// Include action to load the header
+include ('../views/header.php');
+
+// Include action to load the footer
+include ('../views/footer.php');
+
+
 
