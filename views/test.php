@@ -31,7 +31,7 @@ That declaration must be the very first thing in your HTML document, even before
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Load the css file, with this is possible to apply the changes using the style file. -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
     <!-- Load the query file, with this is possible to make the site responsive. -->
     <link rel="stylesheet" href="../css/queries.css">
 </head>

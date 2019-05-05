@@ -59,45 +59,29 @@ That declaration must be the very first thing in your HTML document, even before
     <div class="container h-100">
         <div class="row h-100 align-items-center col-12">
             <div class="col-12 text-center">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-deck row-1">
+                    <div class="card col-lg-6 bg-transparent border-0">
+                        <img class="card-img-top" src="../images/blackboard.png" alt="blackboard">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <button type="button" class="btn btn-lg btn-success">Where to Study</button>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card col-lg-6 bg-transparent border-0">
+                        <img class="card-img-top" src="../images/home.png" alt="home">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <button type="button" class="btn btn-lg btn-secondary">Living in Ireland</button>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card col-lg-6 bg-transparent border-0">
+                        <img class="card-img-top" src="../images/search.png" alt="search">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <button type="button" class="btn btn-lg btn-info">Research</button>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card col-lg-6 bg-transparent border-0">
+                        <img class="card-img-top" src="../images/teamwork.png" alt="team">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <button type="button" class="btn btn-lg btn-warning">About Us</button>
                         </div>
                     </div>
                 </div>

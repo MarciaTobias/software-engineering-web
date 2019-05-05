@@ -76,16 +76,12 @@ That declaration must be the very first thing in your HTML document, even before
 
     </div>
     <!-- /.container -->
-
-
 </div>
 <!-- /.jumbotron -->
-
 <!--
 For IE support of object-fit add this to your document
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"&gt;&lt;/script&gt;
 -->
-
 </body>
 </html>
 
