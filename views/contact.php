@@ -53,6 +53,7 @@
                     <p>Ireland</p>
                     <p>Email: info@languagfluent.ie</p>
                     <p>Tel. +353 20 913 0469</p>
+                    <p>Lucas Mudou</p>
                 </div>
             </div>
         </div>
