@@ -1,6 +1,6 @@
 
 /* Include an image centered in the screen */
-.masthead {
+.masthead, .masthead-about {
     height: 100vh;
     min-height: 500px;
     /*background-image: url("../images/GettyImages-485691273.jpg"); !* insert image in the background *!*/
@@ -16,26 +16,32 @@
 /*}*/
 
 /* Style the text in the center of the image */
-.masthead h1 {
+.masthead h1, .masthead-about h1 {
     font-family: Roboto Condensed;
     font-size: 3em;
 }
 
 /* Container holding the image and the text */
-.container {
+.container, .container-about {
     position: relative;
     text-align: center;
     color: white;
 }
 
-/* Centered text */
+/* Centered text header of the main page with transparent text */
 .centered {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* background with 0.5 opacity */
+    color: #f1f1f1; /* text color */
+    width: 80%; /* Full width */
+    padding: 20px;
 }
 
+/* Animation fade for those 4 icons at the main page */
 .card-img-top {
     -webkit-animation: fadein 2.5s; /* Safari and Chrome */
     -moz-animation: fadein 2.5s; /* Firefox */
@@ -44,40 +50,44 @@
     animation: fadein 2.5s;
 }
 
+/* Animation fade for those 4 icons at the main page */
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Firefox */
+/* Animation fade for those 4 icons at the main page (Firefox) */
 @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Safari and Chrome */
+/* Animation fade for those 4 icons at the main page (Safari and Chrome) */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Internet Explorer */
+/* Animation fade for those 4 icons at the main page (Internet Explorer) */
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }​
 
-/* Opera */
+/* Animation fade for those 4 icons at the main page (Opera) */
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }​
+
+
 
 footer {
     font-family: Roboto Condensed;
 
  }
 
+/* Give space between social links to the pictures at the main page */
 .text-center {
     padding-top: 5em;
 }
