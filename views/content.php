@@ -20,7 +20,7 @@ That declaration must be the very first thing in your HTML document, even before
             </div>
         </div>
     </header>
-<!-- Section with images and links to others pages of the this website -->
+<!-- Section with images and links to others pages of the this website, test -->
 <section class="home_page">
     <section class="container">
         <div class="card-deck row-1">
