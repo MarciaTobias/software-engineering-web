@@ -41,11 +41,6 @@
     padding: 20px;
 }
 
-
-
-.card {
-    color: #73d658;
-}
 /* Animation fade for those 4 icons at the main page */
 .card-img-top {
     -webkit-animation: fadein 2.5s; /* Safari and Chrome */
