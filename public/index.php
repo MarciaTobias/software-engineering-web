@@ -3,7 +3,7 @@
 //require('../files/connect.php');
 
 // Set the name of the page
-$page_title = 'LanguagFluent';
+$page_title = 'LanguageFluent';
 
 // Include action to load the header
 include ('../views/header.php');

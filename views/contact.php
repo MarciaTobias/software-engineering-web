@@ -3,15 +3,16 @@
 <!-- Full page image header with vertically centered content -->
 <section class="jumbotron text-center">
     <div class="col-md-12">
-        <div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://placeimg.com/1000/480/nature)">
+        <div class="jumbotron bg-cover text-white"
+             style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url('../images/letter.png')">
             <div class="container">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            
+                <br>
+                <h1 class="display-4 text-success">Contact Us</h1>
+<!--                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>-->
+<!--                <hr class="my-4">-->
+<!--                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
+
             </div>
-            <!-- /.container   -->
         </div>
 
     </div>
@@ -19,20 +20,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col">
             <div class="card">
-                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
+                <div class="card-header bg-primary text-white">Email
                 </div>
                 <div class="card-body">
                     <form>
@@ -59,14 +48,12 @@
             <div class="card bg-light mb-3">
                 <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
                 <div class="card-body">
-                    <p>3 rue des Champs Elysées</p>
-                    <p>75008 PARIS</p>
-                    <p>France</p>
-                    <p>Email : email@example.com</p>
-                    <p>Tel. +33 12 56 11 51 84</p>
-
+                    <p>3 Kildare Street</p>
+                    <p>Dublin 2</p>
+                    <p>Ireland</p>
+                    <p>Email: info@languagfluent.ie</p>
+                    <p>Tel. +353 20 913 0469</p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -74,12 +61,22 @@
 <?php include ('../views/footer.php'); ?>
 
 
+<!-- Include the header of the main page at about us page-->
+<?php //include ('../views/header.php'); ?>
+<!--<div class="row">-->
+<!--    <div class="col-md-12">-->
+<!--        <h2>Darken</h2>-->
+<!--        <div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://placeimg.com/1000/480/nature)">-->
+<!--            <div class="container">-->
+<!--                <h1 class="display-4">Hello, world!</h1>-->
+<!--                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>-->
+<!--                <hr class="my-4">-->
+<!--                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
+<!--                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+<!--            </div>-->
+<!--            <!-- /.container   -->-->
+<!--        </div>-->
+<!---->
+<!--    </div>-->
 
 
-
-
-
-<h3>EMAIL</h3>
-<p>info@languagfluent.ie</p>
-<h3>TELEPHONE</h3>
-<p>020 913 0469<br>+353 20 913 0469 (from abroad)</p>
