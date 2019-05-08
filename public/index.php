@@ -9,7 +9,7 @@ $page_title = 'LanguageFluent';
 include ('../views/header.php');
 
 // Include action to load the header
-include('../views/content.php');
+include('../views/contentMainPage.php');
 
 // Include action to load the footer
 include ('../views/footer.php');

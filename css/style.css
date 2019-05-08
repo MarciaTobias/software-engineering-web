@@ -50,6 +50,7 @@
     animation: fadein 2.5s;
 }
 
+
 /* Animation fade for those 4 icons at the main page */
 @keyframes fadein {
     from { opacity: 0; }

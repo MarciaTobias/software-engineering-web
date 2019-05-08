@@ -47,7 +47,7 @@
         <div class="col-12 col-sm-4">
             <div class="card bg-light mb-3">
                 <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
-                <div class="card-body">
+                <div class="card-body text-primary">
                     <p>3 Kildare Street</p>
                     <p>Dublin 2</p>
                     <p>Ireland</p>

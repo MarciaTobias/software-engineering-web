@@ -26,7 +26,7 @@ That declaration must be the very first thing in your HTML document, even before
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Load the css file, with this is possible to apply the changes using the style file. -->
-    <link rel="stylesheet" href="../css/style4.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- Load the query file, with this is possible to make the site responsive. -->
     <link rel="stylesheet" href="../css/queries.css">
 </head>
@@ -44,7 +44,7 @@ That declaration must be the very first thing in your HTML document, even before
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
                     aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+            <nav class="collapse navbar-collapse" id="main-menu">
                 <!-- Links of pages in the website -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -66,7 +66,18 @@ That declaration must be the very first thing in your HTML document, even before
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
+            <nav class="collapse navbar-collapse" id="main-user">
+                <!-- Links of pages in the website -->
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log Out</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </nav>
 </header>

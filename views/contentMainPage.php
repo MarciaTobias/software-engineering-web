@@ -24,25 +24,25 @@ That declaration must be the very first thing in your HTML document, even before
 <section class="home_page">
     <section class="container">
         <div class="card-deck row-1">
-            <div class="card col-md-6 bg-transparent border-0">
+            <div class="card col-md-6 bg-#73d658 border-white">
                 <img class="card-img-top" src="../images/blackboard.png" alt="blackboard">
                 <div class="card-body">
                     <button type="button" class="btn btn-lg btn-success">Where to Study</button>
                 </div>
             </div>
-            <div class="card col-md-6 bg-transparent border-0">
+            <div class="card col-md-6 bg-#886c60 border-white">
                 <img class="card-img-top" src="../images/home.png" alt="home">
                 <div class="card-body">
                     <button type="button" class="btn btn-lg btn-secondary">Living in Ireland</button>
                 </div>
             </div>
-            <div class="card col-md-6 bg-transparent border-0">
+            <div class="card col-md-6 bg-#005c83 border-white">
                 <img class="card-img-top" src="../images/search.png" alt="search">
                 <div class="card-body">
                     <button type="button" class="btn btn-lg btn-info">Research</button>
                 </div>
             </div>
-            <div class="card col-md-6 bg-transparent border-0">
+            <div class="card col-md-6 bg-#ffe152 border-white">
                 <img class="card-img-top" src="../images/teamwork.png" alt="team">
                 <div class="card-body">
                     <button type="button" class="btn btn-lg btn-warning">About Us</button>
