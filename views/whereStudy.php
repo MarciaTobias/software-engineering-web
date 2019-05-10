@@ -39,10 +39,6 @@ That declaration must be the very first thing in your HTML document, even before
     <div class="container ">
         <div class="row">
             <div class="col-md-4 col-lg-4 ">
-                <form class="input-group d-inline-flex  " >
-                    <input class="form-control mr-sm-2" type="text" placeholder=" Institution Name">
-                    <button class="btn btn-success" type="submit"><i class="fa fa-search"></i> Search</button>
-                </form>
             </div>
         </div>
     </div>
@@ -226,7 +222,11 @@ That declaration must be the very first thing in your HTML document, even before
                                 <ul class="list-unstyled">
                                     <li class="text-secondary"><small>10 Reviews  </small></li>
                                 </ul>
-                                <button type="button"  class="btn btn-outline-primary  ml-4" >Details</button>
+
+                                <a href="../views/institutionDetails.php">
+                                    <button type="button" class="btn btn-outline-primary  ml-4" >Details</button></a>
+
+
                             </div>
                         </div>
                     </div>

@@ -251,7 +251,7 @@ That declaration must be the very first thing in your HTML document, even before
             <!-- Creating the carousel item -->
             <div class="carousel-item active">
                 <!--Defining the video to be shown  -->
-                <video class="embed-responsive embed-responsive-16by9"  controls>
+                <video class="embed-responsive embed-responsive-16by9"  controls autoplay>
                     <source src="../images/Top%20things%20to%20do%20in%20Cork.mp4" type="video/mp4">
                 </video>
             </div>

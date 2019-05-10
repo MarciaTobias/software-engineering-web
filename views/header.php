@@ -22,7 +22,7 @@
                         <a class="nav-link" href="../public/index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Where to Study</a>
+                        <a class="nav-link" href="../views/whereStudy.php">Where to Study</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Living in Ireland</a>
