@@ -1,4 +1,3 @@
-
 /* Include an image centered in the screen */
 .masthead, .masthead-about {
     height: 100vh;
@@ -9,29 +8,33 @@
     background-repeat: no-repeat;
 }
 
+
 /*!* Add a blur effect in the image *!*/
 /*.masthead img {*/
 /*    -webkit-filter: blur(1px); !* Safari 6.0 - 9.0 *!*/
 /*    filter: blur(1px);*/
 /*}*/
 
-/* Style the text in the center of the image */
+/* Style the text in the center of the image. */
 .masthead h1, .masthead-about h1 {
     font-family: Roboto Condensed;
     font-size: 3em;
 }
 
-/* Container holding the image and the text */
-.container, .container-about {
-    position: relative;
-    text-align: center;
-    color: white;
+.img-ireland {
+    max-width: 100%;
+    height: auto
 }
 
-/* Centered text header of the main page with transparent text */
+/* Give space between social links to the pictures at the main page */
+.text-center {
+    padding-top: 5em;
+}
+
+/* Centered text header of the main page with transparent text. */
 .centered {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(0, 0, 0); /* Fallback color */
@@ -39,6 +42,51 @@
     color: #f1f1f1; /* text color */
     width: 80%; /* Full width */
     padding: 20px;
+}
+
+/* Container holding the image and the text. */
+.container-about {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Container for icons at main page. */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Resize icons and centered them at the main page. */
+section .icons {
+    padding-top: 5%;
+    width: 60%;
+    margin: auto;
+}
+
+/* Change the background of the card on the home page. */
+.icon-blackboard {
+    background-color: #73d658;
+}
+
+/* Change the background of the card on the home page. */
+.icon-home {
+    background-color: #886c60;
+}
+
+/* Change the background of the card on the home page. */
+.icon-search {
+    background-color: #005c83;
+}
+
+/* Change the background of the card on the home page. */
+.icon-team {
+    background-color: #ffe152;
+}
+
+/* Make space between icons and footer at the main page. */
+.footer-main-page {
+    padding-top: 235%;
 }
 
 /* Animation fade for those 4 icons at the main page */
@@ -49,7 +97,6 @@
     -o-animation: fadein 2.5s; /* Opera */
     animation: fadein 2.5s;
 }
-
 
 /* Animation fade for those 4 icons at the main page */
 @keyframes fadein {
@@ -81,14 +128,43 @@
     to   { opacity: 1; }
 }​
 
-
-footer {
-    font-family: Roboto Condensed;
-
+ /* Font family for footer. */
+ footer {
+     font-family: Roboto Condensed;
  }
 
-/* Give space between social links to the pictures at the main page */
-.text-center {
-    padding-top: 5em;
+/* Make space between icons and footer at the main page for sm size media. */
+.footer-main-page {
+     padding-top: 5%;
+ }
+
+/* Change the size of the header at the page about us. */
+.about {
+    font-size: 3em;
 }
 
+/* Change the background color for the email, address label and button submit at contact us page. */
+.email, .address, .submit {
+    background-color:#4ece51;
+
+}
+
+/* Make the image responsive and gives space between main menu and the image at the contact us page. */
+.img-contact {
+     max-width: 100%;
+     height: auto;
+     padding-top: 20%;
+ }
+
+/* Make space on top for the form to the footer at contact us page. */
+.footer-contact {
+    padding-top: 80%;
+}
+
+
+/* Make the image responsive and gives space between main menu and the image at the about us page. */
+.img-about {
+    max-width: 100%;
+    height: auto;
+    padding-top: 20%;
+}
