@@ -24,23 +24,28 @@
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
 
-    /* Resize icons and centered them at the main page for small size media */
+    /* MAIN PAGE - Resize icons and centered them at the main page for small size media */
     section .icons {
         width: 100%;
         margin: auto;
     }
 
-    /* Padding for the image at the contact us page for small size media. */
+    /* WHERE STUDY - Make space between search bar and logo for small size media. */
+    .section-where {
+        padding-top: 17%;
+    }
+
+    /* CONTACT US - Padding for the image for small size media. */
     .img-contact {
         padding-top: 15%;
     }
 
-    /* Make space on top for the form to the footer at contact us page for small size media. */
+    /* CONTACT US - Make space on top for the form to the footer for small size media. */
     .footer-contact {
         padding-top: 70%;
     }
 
-    /* Padding for the image at the about us page for small size media. */
+    /* ABOUT US - Padding for the image for small size media. */
     .img-about {
         padding-top: 15%;
     }
@@ -66,23 +71,28 @@
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
 
-    /* Resize icons and centered them at the main page for medium size media */
+    /* MAIN PAGE - Resize icons and centered them for medium size media. */
     section .icons {
         width: 100%;
         margin: auto;
     }
 
-    /* Padding for the image at the contact us page for medium size media. */
+    /* WHERE STUDY - Make space between search bar and logo for medium size media. */
+    .section-where {
+        padding-top: 13%;
+    }
+
+    /* CONTACT US - Padding for the image for medium size media. */
     .img-contact {
         padding-top: 10%;
     }
 
-    /* Make space on top for the form to the footer at contact us page for medium size media. */
+    /* CONTACT US - Make space on top for the form to the footer for medium size media. */
     .footer-contact {
         padding-top: 20%;
     }
 
-    /* Padding for the image at the about us page for medium size media. */
+    /* ABOUT US - Padding for the image for medium size media. */
     .img-about {
         padding-top: 10%;
     }
@@ -111,34 +121,39 @@
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
 
-    /* Push up the text at the main page for large size. */
+    /* MAIN PAGE - Push up the text for large size. */
     .centered {
         position: absolute;
         top: 30%;
     }
 
-    /* Resize icons and centered them at the main page for large size media. */
+    /* MAIN PAGE - Resize icons and centered them for large size media. */
     section .icons {
         width: 100%;
         margin-top: -30%;
     }
 
-    /* Resize the text of buttons at the main page for large size media. */
+    /* MAIN PAGE - Resize the text of buttons for large size media. */
     section .icons button {
         font-size: 0.7em;
     }
 
-    /* Padding for the image at the contact us page for large size media. */
+    /* WHERE STUDY - Make space between search bar and logo for large size media. */
+    .section-where {
+        padding-top: 10%;
+    }
+
+    /* CONTACT US - Padding for the image for large size media. */
     .img-contact {
         padding-top: 5%;
     }
 
-    /* Make space on top for the form to the footer at contact us page for large size media. */
+    /* CONTACT US - Make space on top for the form to the footer for large size media. */
     .footer-contact {
         padding-top: 20%;
     }
 
-    /* Padding for the image at the about us page for large size media. */
+    /* ABOUT US - Padding for the image for large size media. */
     .img-about {
         padding-top: 5%;
     }
@@ -159,33 +174,38 @@
     .col-xl-11 {width: 91.66%;}
     .col-xl-12 {width: 100%;}
 
-    /* Centered text header of the main page with transparent text */
+    /* MAIN PAGE - Centered text header with transparent text */
     .centered {
         top: 40%;
     }
 
-    /* Resize icons and centered them at the main page for extra large size media */
+    /* MAIN PAGE - Resize icons and centered them for extra large size media */
     section .icons {
         width: 100%;
         margin-top: -30%;
     }
 
-    /* Resize the text of buttons at the main page for large size.. */
+    /* MAIN PAGE - Resize the text of buttons for extra large size.. */
     section .icons button {
         font-size: 1.1em;
     }
 
-    /* Padding for the image at the contact us page for extra large size media. */
+    /* WHERE STUDY - Make space between search bar and logo for extra large size media. */
+    .section-where {
+        padding-top: 9%;
+    }
+
+    /* CONTACT US - Padding for the image page for extra large size media. */
     .img-contact {
         padding-top: 5%;
     }
 
-    /* Make space on top for the form to the footer at contact us page for extra large size media. */
+    /* CONTACT US - Make space on top for the form to the footer for extra large size media. */
     .footer-contact {
         padding-top: 20%;
     }
 
-    /* Padding for the image at the about us page for extra large size media. */
+    /* ABOUT US - Padding for the image for extra large size media. */
     .img-about {
         padding-top: 5%;
     }

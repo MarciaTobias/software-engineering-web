@@ -24,7 +24,8 @@
                 <div class="card-body">
                     <img class="card-img-top" src="../images/blackboard.png" alt="icon-blackboard">
                     <div class="card-body">
-                        <button type="button" class="btn btn-lg btn-success">Where to Study</button>
+                        <a href="../views/whereStudy.php">
+                            <button type="button" class="btn btn-lg btn-success">Where to Study</button></a>
                     </div>
                 </div>
             </section>
@@ -60,7 +61,8 @@
                 <div class="card-body">
                     <img class="card-img-top" src="../images/teamwork.png" alt="icon-team">
                     <div class="card-body">
-                        <a href="aboutUs.php"><button type="button" class="btn btn-lg btn-warning">About Us</button></a>
+                        <a href="../views/aboutUs.php">
+                            <button type="button" class="btn btn-lg btn-warning">About Us</button></a>
                     </div>
                 </div>
             </div>
