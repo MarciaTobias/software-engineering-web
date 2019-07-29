@@ -37,7 +37,8 @@
                 <div class="card-body">
                     <img class="card-img-top" src="../images/home.png" alt="icon-home">
                     <div class="card-body">
-                        <button type="button" class="btn btn-lg btn-secondary">Living in Ireland</button>
+                        <a href="../views/inConstruction.php">
+                            <button type="button" class="btn btn-lg btn-secondary">Living in Ireland</button></a>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,8 @@
                 <div class="card-body">
                     <img class="card-img-top" src="../images/search.png" alt="icon-search">
                     <div class="card-body">
-                        <button type="button" class="btn btn-lg btn-info">Search</button>
+                        <a href="../views/inConstruction.php">
+                            <button type="button" class="btn btn-lg btn-info">Research</button></a>
                     </div>
                 </div>
             </div>
