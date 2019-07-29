@@ -198,6 +198,12 @@
     /* CONTACT US - Padding for the image page for extra large size media. */
     .img-contact {
         padding-top: 5%;
+
+    }
+
+    container-about {
+
+
     }
 
     /* CONTACT US - Make space on top for the form to the footer for extra large size media. */
@@ -208,5 +214,11 @@
     /* ABOUT US - Padding for the image for extra large size media. */
     .img-about {
         padding-top: 5%;
+
+    }
+
+    /* REGISTER, LOGIN IN, LOG OUT - spacing from the main-menu. */
+    .login-panel {
+        margin-top: 25%;
     }
 }

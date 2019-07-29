@@ -8,13 +8,6 @@
     background-repeat: no-repeat;
 }
 
-
-/*!* Add a blur effect in the image *!*/
-/*.masthead img {*/
-/*    -webkit-filter: blur(1px); !* Safari 6.0 - 9.0 *!*/
-/*    filter: blur(1px);*/
-/*}*/
-
 /* MAIN PAGE, ABOUT US - Style the text in the center of the image. */
 .masthead h1, .masthead-about h1 {
     font-family: Roboto Condensed;
@@ -122,19 +115,24 @@ section .icons {
     to   { opacity: 1; }
 }​
 
- /* Font family for footer. */
+     /* Font family for footer. */
  footer {
      font-family: Roboto Condensed;
  }
 
 /* MAIN PAGE - Make space between icons and footer for small size media. */
 .footer-main-page {
-     padding-top: 5%;
+    padding-top: 5%;
 }
 
 /* WHERE STUDY - Make space between search bar and logo for small size media. */
 .section-where {
     padding-top: 20%;
+}
+
+/*LIVING IRELAND/RESEARCH - change the color text.*/
+.barrier{
+    color:#00d12e;
 }
 
 /* ABOUT US - Change the size of the header. */
@@ -187,3 +185,7 @@ section .icons {
     font-color:#262626;
 }
 
+/* REGISTER, LOGIN IN, LOG OUT - spacing from the main-menu. */
+.login-panel {
+    margin-top: 50%;
+}
