@@ -22,5 +22,6 @@ if (mysqli_connect_error()) {
 
 // it will close the connection.
 //$mysqli->close();
-?>
 
+
+?>
