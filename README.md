@@ -1,2 +1,2 @@
-# brigadeiro
-Griffith SEWA - Final Project
+# Software Engineering for Web Applications (SEWA)
+Griffith - Final Project
