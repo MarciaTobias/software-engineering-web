@@ -2,7 +2,6 @@
 .masthead, .masthead-about {
     height: 100vh;
     min-height: 500px;
-    /*background-image: url("../images/GettyImages-485691273.jpg"); !* insert image in the background *!*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,10 +114,10 @@ section .icons {
     to   { opacity: 1; }
 }​
 
-     /* Font family for footer. */
+/* Font family for footer. */
  footer {
      font-family: Roboto Condensed;
- }
+}
 
 /* MAIN PAGE - Make space between icons and footer for small size media. */
 .footer-main-page {
@@ -156,7 +155,7 @@ section .icons {
 
 /* CONTACT US - Change the background color for the email, address label and button submit. */
 .email, .address, .submit {
-    background-color:#4ece51;
+    background-color:#262626;
 
 }
 
@@ -176,7 +175,7 @@ section .icons {
 .review-block-title{
     font-family: Poppins, sans-serif;
     font-size: 18px;
-    font-color:#38c93d;
+    font-color: #262626;
 }
 /* REVIEWS - Create of the description style. */
 .review-block-description{

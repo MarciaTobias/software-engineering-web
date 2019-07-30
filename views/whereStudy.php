@@ -81,7 +81,7 @@
     <!-- creating the container section to the search defined by the user -->
     <section class="col-md-12 ">
         <!-- Creating the title, defining the number of the search found -->
-        <h2 style="color:#38c93d;"> All cities:
+        <h2> All cities:
             <?php
             // Shows how many schools at the database.
             // Create connection
@@ -114,21 +114,21 @@
                 <ul class="pagination">
                     <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
                 </ul>
             </div>
         </div>
         <!-- Creating the container to show up all the institution locate on the search-->
-        <div class="row mb-3 ">
+        <div class="row mb-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-body">
                         <!-- Creating the container for the first institution localized on the search -->
                         <div class="row">
                             <!-- Creating the container where is going to insert the image -->
-                            <div class="col-md-3 col-lg-3 ">
+                            <div class="col-md-3 col-lg-3">
                                 <img src="../images/<?php
                                 // Shows the image of the school using the information from the database.
                                 // Create connection
@@ -138,7 +138,6 @@
                                     die("Connection failed: " . $conn->connect_error);
                                 }
 
-                                //$nameInstitution = $_POST['keyword'];
                                 $resultInstitution = "SELECT * FROM Institution WHERE institution_Name LIKE '%Cork%' ";
                                 $result = mysqli_query($conn, $resultInstitution);
 
@@ -193,7 +192,7 @@
                                 </div>
                                 <!-- Creating the container for specify the address of the first institution and link it to the google maps-->
                                 <div class="list-location">
-                                    <a href="https://www.google.com/maps/place/Cork+English+World/@51.894949,-8.4794481,15z/data=!4m5!3m4!1s0x0:0xb16f13e4f29b1e47!8m2!3d51.894949!4d-8.4794481"><i class="fa fa-map-marker"></i><small> Address:
+                                    <a href="https://www.google.com/maps/place/Cork+English+World/@51.894949,-8.4794481,15z/data=!4m5!3m4!1s0x0:0xb16f13e4f29b1e47!8m2!3d51.894949!4d-8.4794481"><i class="fa fa-map-marker"></i><small style="color: black; font-style: italic;"> Address:
                                             <?php
                                             // Shows the address of the school using the information from the database.
                                             // Create connection
@@ -221,8 +220,8 @@
                                             ?>
                                         </small> </a>
                                 </div>
-                                <div class="list-description">
-                                    <small style="color: #38c93d ">
+                                <div class="list-description mt-3">
+                                    
                                         <?php
                                         // Shows the description of the school using the information from the database.
                                         // Create connection
@@ -248,14 +247,14 @@
 
                                         $conn->close();
                                         ?>
-                                    </small>
+                               
                                 </div>
                             </article>
                             <!-- Creating the second part of the card body with the rating -->
                             <div class="row col-md-3 col-lg-3 border-left card-body">
                                 <!-- Defining the title of the second part of the Card body, using the average value among the reviews of the users-->
-                                <div class="review-block-title mb-2" style="color: #38c93d " >AVERAGE RATING - 4.5</div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="review-block-title mb-4">AVERAGE RATING - 4.5</div>
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>5 star</div>
                                 </div>
@@ -268,7 +267,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>4 star</div>
                                 </div>
@@ -281,7 +280,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the third progress bar -->
                                     <div>3 star</div>
                                 </div>
@@ -294,7 +293,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>2 star</div>
                                 </div>
@@ -307,7 +306,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>1 star</div>
                                 </div>
@@ -322,7 +321,7 @@
                                 </div>
                                 <!-- Decryption of the how many reviews the first institution receive -->
                                 <ul class="list-unstyled">
-                                    <li class="text-secondary"><small>10 Reviews  </small></li>
+                                    <li class="text-secondary"><small>10 Reviews</small></li>
                                 </ul>
                                 <a class="nav-link" href="detailsCork.php"><button type="button" class="btn btn-outline-primary  ml-4" >Details</button></a>
 
@@ -405,7 +404,7 @@
                                     </ul>
                                 </div>
                                 <div class="list-location">
-                                    <a href="https://www.google.com/maps/place/Delfin+English+School+Dublin/@53.353524,-6.261906,15z/data=!4m5!3m4!1s0x0:0xb08e9110344f19e1!8m2!3d53.353524!4d-6.261906"><i class="fa fa-map-marker"></i><small> Address:
+                                    <a href="https://www.google.com/maps/place/Delfin+English+School+Dublin/@53.353524,-6.261906,15z/data=!4m5!3m4!1s0x0:0xb08e9110344f19e1!8m2!3d53.353524!4d-6.261906"><i class="fa fa-map-marker"></i><small style="color: black; font-style: italic;"> Address:
                                             <?php
                                             // Shows the address of the school using the information from the database.
                                             // Create connection
@@ -435,8 +434,7 @@
                                             $conn->close(); ?>
                                         </small></a>
                                 </div>
-                                <div class="list-descrip">
-                                    <small style="color: #38c93d">
+                                <div class="list-descrip mt-3">         
                                         <?php
                                         // Shows the address of the school using the information from the database.
                                         // Create connection
@@ -465,14 +463,13 @@
 
                                         $conn->close();
                                         ?>
-                                    </small>
                                 </div>
                             </div>
                             <!-- Creating the second part of the card body with the rating -->
                             <div class="row col-md-3 col-lg-3 border-left card-body">
                                 <!-- Defining the title of the second part of the Card body, using the average value among the reviews of the users-->
-                                <div class="review-block-title mb-2" style="color: #38c93d " >AVERAGE RATING - 4.5</div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="review-block-title mb-4">AVERAGE RATING - 4.5</div>
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>5 star</div>
                                 </div>
@@ -485,7 +482,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>4 star</div>
                                 </div>
@@ -498,7 +495,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the third progress bar -->
                                     <div>3 star</div>
                                 </div>
@@ -511,7 +508,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>2 star</div>
                                 </div>
@@ -524,7 +521,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>1 star</div>
                                 </div>
@@ -622,7 +619,7 @@
                                     </ul>
                                 </div>
                                 <div class="list-location">
-                                    <a href="#"><i class="fa fa-map-marker"></i><small>Address:
+                                    <a href="#"><i class="fa fa-map-marker"></i><small style="color: black; font-style: italic;">Address:
                                             <?php
                                             // Shows the address of the school using the information from the database.
                                             // Create connection
@@ -650,8 +647,7 @@
                                             ?>
                                         </small> </a>
                                 </div>
-                                <div class="list-descrip">
-                                    <small style="color: #38c93d">
+                                <div class="list-descrip mt-3">
                                         <?php
                                         // Shows the description of the school using the information from the database.
                                         // Create connection
@@ -677,15 +673,14 @@
 
                                         $conn->close();
                                         ?>
-                                    </small>
                                 </div>
                             </div>
 
                             <!-- Creating the second part of the card body with the rating -->
                             <div class="row col-md-3 col-lg-3 border-left card-body">
                                 <!-- Defining the title of the second part of the Card body, using the average value among the reviews of the users-->
-                                <div class="review-block-title mb-2" style="color: #38c93d " >AVERAGE RATING - 4.5</div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="review-block-title mb-4">AVERAGE RATING - 4.5</div>
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>5 star</div>
                                 </div>
@@ -698,7 +693,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>4 star</div>
                                 </div>
@@ -711,7 +706,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the third progress bar -->
                                     <div>3 star</div>
                                 </div>
@@ -724,7 +719,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>2 star</div>
                                 </div>
@@ -737,7 +732,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>1 star</div>
                                 </div>
@@ -837,7 +832,7 @@
                                     </ul>
                                 </div>
                                 <div class="list-location">
-                                    <a href="#"><i class="fa fa-map-marker"></i><small>Address:
+                                    <a href="#"><i class="fa fa-map-marker"></i><small style="color: black; font-style: italic;">Address:
                                             <?php
                                             // Shows the address of the school using the information from the database.
                                             // Create connection
@@ -866,7 +861,7 @@
                                         </small> </a>
                                 </div>
                                 <div class="list-descrip">
-                                    <small style="color: #38c93d">
+                                    <small>
                                         <?php
                                         // Shows the description of the school using the information from the database.
                                         // Create connection
@@ -900,7 +895,7 @@
                             <div class="row col-md-3 col-lg-3 border-left card-body">
                                 <!-- Defining the title of the second part of the Card body, using the average value among the reviews of the users-->
                                 <div class="review-block-title mb-2" style="color: #38c93d " >AVERAGE RATING - 4.5</div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>5 star</div>
                                 </div>
@@ -913,7 +908,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>4 star</div>
                                 </div>
@@ -926,7 +921,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the third progress bar -->
                                     <div>3 star</div>
                                 </div>
@@ -939,7 +934,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the second progress bar -->
                                     <div>2 star</div>
                                 </div>
@@ -952,7 +947,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="side" style="color:#38c93d;">
+                                <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>1 star</div>
                                 </div>
@@ -981,7 +976,7 @@
         <!-- Repeating the title of the page, with the number of the search found -->
         <section class="col-md-12 ">
             <!-- Repeating the title of the page, with the number of the search found -->
-            <h2 style="color:#38c93d;"> All cities:
+            <h2> All cities:
                 <?php
                 // Shows how many schools at the database.
                 // Create connection
