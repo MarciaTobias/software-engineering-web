@@ -30,7 +30,7 @@ include ('../views/header.php');
                                 <input class="form-control" placeholder="Password" name="pass" type="password" value="">
                             </div>
 
-                            <input class="btn btn-lg btn-success btn-block"  type="submit" value="register" name="register">
+                            <input class="btn btn-lg btn-block"  type="submit" value="Register" name="register" style="background-color: #4ece51; color: white;">
                         </fieldset>
                     </form>
                     <b>Already registered ?</b> <br></b><a href="login.php">Login here</a><!--for centered text-->
@@ -42,6 +42,7 @@ include ('../views/header.php');
 </body>
 </html>
 
+<div style="padding-top: 190px;">
 <?php include ('../views/footer.php');
 
 // Connection with database.
@@ -93,3 +94,4 @@ if($_SERVER['REQUEST_METHOD'] === 'POST')
     }
 }
 ?>
+</div>

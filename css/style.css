@@ -188,3 +188,7 @@ section .icons {
 .login-panel {
     margin-top: 50%;
 }
+
+#register {
+    background-color: #4ece51;
+}

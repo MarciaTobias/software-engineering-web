@@ -218,10 +218,10 @@ That declaration must be the very first thing in your HTML document, even before
                             </div>
                             <!-- Decryption of the how many reviews the first institution receive -->
                             <ul class="list-unstyled">
-                                <li class="text-secondary"><small>10 Reviews  </small></li>
+                                <li class="text-secondary"><small>10 Reviews</small></li>
                             </ul>
                             <!-- Creating the button to give a opportunity to the user verify more details of the institution -->
-                            <button type="button"  class="btn btn-outline-primary mt-4 ml-4" >Details</button>
+                            <a href="#reviews" class="btn btn-outline-primary mt-4 ml-4" role="button">Details</a>
                         </div>
                     </div>
                 </div>
@@ -345,9 +345,12 @@ That declaration must be the very first thing in your HTML document, even before
             </div>
         </div>
     </div> <!-- class row mx-0 -->
-
-    <!-- Load the page student reviews. -->
+    
+    <div id="reviews">
+        <!-- Load the page student reviews. -->
     <?php include('../views/studentReviews.php'); ?>
+    </div>
+    
 
 
 </div>
