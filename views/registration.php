@@ -42,7 +42,7 @@ include ('../views/header.php');
 </body>
 </html>
 
-<div style="padding-top: 190px;">
+<div style="padding-top: 130px;">
 <?php include ('../views/footer.php');
 
 // Connection with database.

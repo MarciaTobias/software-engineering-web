@@ -36,6 +36,10 @@ include ('../views/header.php');
 </body>
 </html>
 
+<div style="padding-top: 250px;">
+<?php include ('../views/footer.php');?>
+</div>
+
 <?php
 // Connection with database.
 include('../files/connect.php');
