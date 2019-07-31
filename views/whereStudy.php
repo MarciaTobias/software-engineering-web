@@ -894,7 +894,7 @@
                             <!-- Creating the second part of the card body with the rating -->
                             <div class="row col-md-3 col-lg-3 border-left card-body">
                                 <!-- Defining the title of the second part of the Card body, using the average value among the reviews of the users-->
-                                <div class="review-block-title mb-2" style="color: #38c93d " >AVERAGE RATING - 4.5</div>
+                                <div class="review-block-title mb-4">AVERAGE RATING - 4.5</div>
                                 <div class="side">
                                     <!-- Decryption of the first progress bar -->
                                     <div>5 star</div>
@@ -1009,9 +1009,9 @@
                     <ul class="pagination">
                         <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
                         <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
                     </ul>
                 </div>
             </div>

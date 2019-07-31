@@ -42,7 +42,7 @@
                             <label class="formMessage pt-5" for="message">Message</label>
                             <textarea class="form-control" name="message" rows="6" required></textarea>
                             <!-- Button to submit the form with pop alert. -->
-                            <input class="btn text-right text-white submit" type="submit" type="submit"
+                            <input class="btn text-right text-white submit mt-5" type="submit" type="submit"
                                    onclick="show_alert()" name="button" value="Submit">
                         </form>
                     </div>

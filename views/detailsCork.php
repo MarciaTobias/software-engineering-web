@@ -107,14 +107,14 @@ That declaration must be the very first thing in your HTML document, even before
     </div>
 
     <!-- Creating a container to describe the title of the page -->
-    <div class="row  ">
+    <div class="row">
         <div class="col-md-12 mb-3 ">
-            <h2 style="color:#38c93d;"> Institution Details </h2>
+            <h2> Institution Details </h2>
         </div>
     </div>
 
     <!-- Creating the container to the institution chosen -->
-    <div class="row mb-3 ">
+    <div class="row mb-3">
         <!-- Defining the positioning of the containers in different sizes -->
         <div class="col-sm-12 col-md-12 col-lg-12">
             <!-- Creating the first part of the container, utilizing the class card  -->
@@ -139,19 +139,19 @@ That declaration must be the very first thing in your HTML document, even before
                             </div>
                             <!-- Creating the container to describe and link the location, address and map (google map)-->
                             <div class="list-location">
-                                <a href="https://www.google.com/maps/place/Cork+English+World/@51.894949,-8.4794481,15z/data=!4m5!3m4!1s0x0:0xb16f13e4f29b1e47!8m2!3d51.894949!4d-8.4794481"><i class="fa fa-map-marker"></i><small> Address: Crawford Business Park, Bishop St, The Lough, Cork</small> </a>
+                                <a href="https://www.google.com/maps/place/Cork+English+World/@51.894949,-8.4794481,15z/data=!4m5!3m4!1s0x0:0xb16f13e4f29b1e47!8m2!3d51.894949!4d-8.4794481"><i class="fa fa-map-marker"></i><small style="color: black; font-style: italic;"> Address: Crawford Business Park, Bishop St, The Lough, Cork</small> </a>
                             </div>
                             <!-- Creating a container to set and show up a description of the institution -->
-                            <div class="list-description">
-                                <small style="color: #38c93d ">CEW promotes excellence through lifelong learning by providing a high quality range of English Courses to equip students with accredited skills that have international recognition and that are relevant to the present and future workplace.</small>
+                            <div class="list-description mt-3">
+                                CEW promotes excellence through lifelong learning by providing a high quality range of English Courses to equip students with accredited skills that have international recognition and that are relevant to the present and future workplace.
                             </div>
                         </article>
 
                         <!-- Creating the second part of the card body with the rating -->
                         <div class="row col-md-3 col-lg-3 border-left card-body">
                             <!-- Defining the title of the second part of the Card body, using the average value among the reviews of the users-->
-                            <div class="review-block-title mb-2" style="color: #38c93d " >AVERAGE RATING - 4.5</div>
-                            <div class="side" style="color:#38c93d;">
+                            <div class="review-block-title mb-4">AVERAGE RATING - 4.5</div>
+                            <div class="side">
                                 <!-- Decryption of the first progress bar -->
                                 <div>5 star</div>
                             </div>
@@ -164,7 +164,7 @@ That declaration must be the very first thing in your HTML document, even before
                                     </div>
                                 </div>
                             </div>
-                            <div class="side" style="color:#38c93d;">
+                            <div class="side">
                                 <!-- Decryption of the second progress bar -->
                                 <div>4 star</div>
                             </div>
@@ -177,7 +177,7 @@ That declaration must be the very first thing in your HTML document, even before
                                     </div>
                                 </div>
                             </div>
-                            <div class="side" style="color:#38c93d;">
+                            <div class="side">
                                 <!-- Decryption of the third progress bar -->
                                 <div>3 star</div>
                             </div>
@@ -190,7 +190,7 @@ That declaration must be the very first thing in your HTML document, even before
                                     </div>
                                 </div>
                             </div>
-                            <div class="side" style="color:#38c93d;">
+                            <div class="side">
                                 <!-- Decryption of the second progress bar -->
                                 <div>2 star</div>
                             </div>
@@ -203,7 +203,7 @@ That declaration must be the very first thing in your HTML document, even before
                                     </div>
                                 </div>
                             </div>
-                            <div class="side" style="color:#38c93d;">
+                            <div class="side">
                                 <!-- Decryption of the first progress bar -->
                                 <div>1 star</div>
                             </div>
@@ -221,7 +221,7 @@ That declaration must be the very first thing in your HTML document, even before
                                 <li class="text-secondary"><small>10 Reviews  </small></li>
                             </ul>
                             <!-- Creating the button to give a opportunity to the user verify more details of the institution -->
-                            <button type="button"  class="btn btn-outline-primary  ml-4" >Details</button>
+                            <button type="button"  class="btn btn-outline-primary mt-4 ml-4" >Details</button>
                         </div>
                     </div>
                 </div>
@@ -287,9 +287,9 @@ That declaration must be the very first thing in your HTML document, even before
             <img class="card-img-top" src="../images/General%20English.png" alt="Card image cap">
             <div class="card-body" id="card1_first_step">
                 <!-- Declaring the title of the step -->
-                <h4 class="card-title" style="color:#38c93d;"><em>First step</em></h4>
+                <h4 class="card-title"><em>First step</em></h4>
                 <!-- Show the initial message to attract the user -->
-                <p class="card-text" style="color:#38c93d;">The general english is the first step of all initial student </p>
+                <p class="card-text">The general english is the first step of all initial student </p>
 
             </div>
             <!-- Create the container footer of the card, with a link button details, linking to the institution site course-->
@@ -303,9 +303,9 @@ That declaration must be the very first thing in your HTML document, even before
             <img class="card-img-top" src="../images/Exam%20Preparation.png" alt="Card image cap">
             <div class="card-body" id="card1_second_step">
                 <!-- Declaring the title of the step -->
-                <h4 class="card-title" style="color:#38c93d;"><em>Second step</em></h4>
+                <h4 class="card-title"><em>Second step</em></h4>
                 <!-- Show the initial message to attract the user -->
-                <p class="card-text" style="color:#38c93d;">Cork English World is a certified Cambridge Examination Preparation centre.</p>
+                <p class="card-text">Cork English World is a certified Cambridge Examination Preparation centre.</p>
 
             </div>
             <!-- Create the container footer of the card, with a link button details, linking to the institution site course-->
@@ -319,9 +319,9 @@ That declaration must be the very first thing in your HTML document, even before
             <img class="card-img-top" src="../images/Academic%20Programme.png" alt="Card image cap">
             <div class="card-body" id="card1_third_step">
                 <!-- Declaring the title of the step -->
-                <h4 class="card-title" style="color:#38c93d;"><em>Third step</em></h4>
+                <h4 class="card-title"><em>Third step</em></h4>
                 <!-- Show the initial message to attract the user -->
-                <p class="card-text" style="color:#38c93d;">Academic /Work & Study is a programme that is offered by Cork English World for students who wish to achieve a high level of English to WORK or STUDY in an English speaking environment. </p>
+                <p class="card-text">Academic /Work & Study is a programme that is offered by Cork English World for students who wish to achieve a high level of English to WORK or STUDY in an English speaking environment. </p>
 
             </div>
             <!-- Create the container footer of the card, with a link button details, linking to the institution site course-->
@@ -335,9 +335,9 @@ That declaration must be the very first thing in your HTML document, even before
             <img class="card-img-top" src="../images/Business%20English.png" alt="Card image cap">
             <div class="card-body" id="card1_fourth_step">
                 <!-- Declaring the title of the step -->
-                <h4 class="card-title" style="color:#38c93d;"><em>Forth step</em></h4>
+                <h4 class="card-title"><em>Forth step</em></h4>
                 <!-- Show the initial message to attract the user -->
-                <p class="card-text" style="color:#38c93d;">The Business English course is designed for people who want to develop their Business English skills and acumen. </p>
+                <p class="card-text">The Business English course is designed for people who want to develop their Business English skills and acumen. </p>
             </div>
             <!-- Create the container footer of the card, with a link button details, linking to the institution site course-->
             <div class="card-footer">
